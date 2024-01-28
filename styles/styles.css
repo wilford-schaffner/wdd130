@@ -1,0 +1,17 @@
+#main_title {
+    font-size: 250%;
+}
+
+body {
+    background-color: rgb(246, 246, 246)
+}
+
+a {
+    padding: 10px;
+    color:black;
+    font-size: 1.3em;
+}
+
+img {
+    width: 300px;
+}
