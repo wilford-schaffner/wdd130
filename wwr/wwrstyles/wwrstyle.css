@@ -3,6 +3,7 @@
 #content {
     max-width: 1600px;
     margin: 0 auto;
+    margin-bottom: 20px;
 }
 
 .logo {
@@ -14,6 +15,7 @@ header {
     font-family: Montserrat;
     display: grid;
     grid-template-columns: 150px auto;
+    margin-bottom: 20px;
 }
 
 body {
@@ -203,9 +205,11 @@ footer {
     color:#2B2D42;
     padding: 25px 50px;
     margin-top: 200px;
+    margin: 0 auto;
     display: flex;
     justify-content: space-around;
     align-items: center;
+    max-width: 1600px;
 }
 
 footer a {
@@ -274,4 +278,132 @@ footer .social img {
         margin-top: 25px;
     }
 }
-            
+
+
+/* CSS FOR RATES PAGE -------------------------------------------------------------------------------------------------------------- */
+
+/* styles.css */
+
+#rate-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+}
+
+.frame {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border-radius: 8px;
+    width: 100%;
+    box-shadow: 0px 2px 21.8px 0px rgba(0, 0, 0, 0.08);
+  }
+  
+  .frame .div {
+    background-color: #ffffff;
+    width: 566px;
+    height: 184px;
+    position: relative;
+  }
+  
+  .frame .overlap-group {
+    position: absolute;
+  width: 168px;
+  height: 168px;
+  top: 8px;
+  left: 8px;
+  background-color: #f1f1f1;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  }
+  
+  .preview-img {
+    width: 100%;
+    height: 100%;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+  
+  .title-text {
+    position: absolute;
+    top: 7px;
+    left: 191px;
+    font-family: "Montserrat", Helvetica;
+    font-weight: 600px;
+    color: #000000;
+    font-size: 24px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .frame .paragraph-text {
+    position: absolute;
+    top: 25px;
+    left: 191px;
+    font-family: "Roboto", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .frame .div-wrapper {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 2px 6px;
+    position: absolute;
+    top: 157px;
+    left: 191px;
+    background-color: #EF233C;
+    border-radius: 9px;
+    overflow: hidden;
+  }
+  
+  .frame .text-wrapper {
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: white;
+    font-size: 12px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .frame .div-wrapper-2 {
+    left: 292px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 2px 6px;
+    position: absolute;
+    top: 157px;
+    background-color: #EF233C;
+    border-radius: 9px;
+    overflow: hidden;
+  }
+  
+  .frame .div-wrapper-3 {
+    left: 392px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 2px 6px;
+    position: absolute;
+    top: 157px;
+    background-color: #EF233C;
+    border-radius: 9px;
+    overflow: hidden;
+  }
+  
