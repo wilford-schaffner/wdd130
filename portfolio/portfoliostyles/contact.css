@@ -1,0 +1,308 @@
+.logo-icon {
+    height: 39.5px;
+    width: 74px;
+    position: relative;
+    object-fit: cover;
+  }
+  .about,
+  .contact,
+  .home {
+    position: relative;
+    line-height: 28px;
+  }
+  .about,
+  .contact {
+    cursor: pointer;
+  }
+  .home-link,
+  .nav-nav-menu {
+    margin: 0;
+    display: flex;
+    align-items: flex-start;
+  }
+  .nav-nav-menu {
+    align-self: stretch;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: var(--gap-xl);
+    text-align: left;
+    font-size: var(--body-text-size);
+    color: var(--black);
+    font-family: var(--body-text);
+  }
+  .nav-nav-menu a{
+    text-decoration: none;
+    color: #2d2d2d;
+  }
+  .home-link {
+    width: 261px;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 0 0 5.5px;
+    box-sizing: border-box;
+  }
+  .navigation {
+    align-self: stretch;
+    background-color: var(--white);
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-between;
+    padding: var(--padding-xl) 50px 20.5px;
+    top: 0;
+    z-index: 99;
+    position: sticky;
+    gap: var(--gap-xl);
+  }
+  .lets-work-together,
+  .this-is-a {
+    align-self: stretch;
+    position: relative;
+  }
+  .lets-work-together {
+    margin: 0;
+    font-size: inherit;
+    line-height: 42px;
+    font-weight: 600;
+    font-family: inherit;
+  }
+  .this-is-a {
+    font-size: var(--body-text-size);
+    line-height: 27px;
+  }
+  .footer-message {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-21xl);
+  }
+  .behance-icon,
+  .discord-icon,
+  .dribbble-icon,
+  .facebook-icon,
+  .instagram-icon {
+    height: 36px;
+    width: 36px;
+    position: relative;
+    object-fit: cover;
+    min-height: 36px;
+  }
+  .social-icons {
+    flex-direction: row;
+    gap: 13px;
+  }
+  .contact-info,
+  .social-icons,
+  .text-inputdesktop,
+  .text-inputdesktop1 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .contact-info {
+    width: 360px;
+    flex-direction: column;
+    gap: 60px;
+    min-width: 360px;
+    max-width: 100%;
+  }
+  .text-inputdesktop,
+  .text-inputdesktop1 {
+    width: 100%;
+    border: 0;
+    outline: 0;
+    background-color: var(--color-whitesmoke);
+    align-self: stretch;
+    height: 69px;
+    flex-direction: row;
+    padding: var(--padding-2xl) var(--padding-11xl);
+    box-sizing: border-box;
+    font-family: var(--body-text);
+    font-size: var(--body-text-size);
+    color: var(--black);
+    min-width: 250px;
+  }
+  .blank-line,
+  .blank-line1,
+  .blank-line2,
+  .blank-line3,
+  .blank-line4,
+  .type-your-message {
+    margin: 0;
+  }
+  .write-something {
+    height: 189px;
+    flex: 1;
+    position: relative;
+    line-height: 27px;
+    display: inline-block;
+    max-width: 100%;
+  }
+  .text-fields1,
+  .text-inputdesktop2 {
+    align-self: stretch;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    max-width: 100%;
+  }
+  .text-inputdesktop2 {
+    background-color: var(--color-whitesmoke);
+    flex-direction: row;
+    padding: var(--padding-2xl) var(--padding-11xl);
+    box-sizing: border-box;
+  }
+  .text-fields1 {
+    flex-direction: column;
+    gap: var(--gap-xl);
+  }
+  .button,
+  .submit {
+    display: flex;
+    justify-content: center;
+  }
+  .submit {
+    width: 71px;
+    position: relative;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 600;
+    font-family: var(--body-text);
+    color: var(--white);
+    text-align: center;
+    align-items: center;
+  }
+  .button {
+    cursor: pointer;
+    border: 0;
+    padding: var(--padding-6xl) var(--padding-xl);
+    background-color: var(--black);
+    width: 235px;
+    flex-direction: row;
+    align-items: flex-start;
+    box-sizing: border-box;
+  }
+  .button:hover {
+    background-color: #616161;
+  }
+  .footer-info,
+  .footer-info1,
+  .text-fields {
+    display: flex;
+    justify-content: flex-start;
+    max-width: 100%;
+  }
+  .text-fields {
+    flex: 1;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: var(--gap-21xl);
+    min-width: 344px;
+    font-size: var(--body-text-size);
+  }
+  .footer-info,
+  .footer-info1 {
+    flex-direction: row;
+  }
+  .footer-info1 {
+    flex: 1;
+    align-items: flex-start;
+    gap: 190px;
+  }
+  .footer-info {
+    width: 1080px;
+    align-items: flex-end;
+    min-height: 599px;
+    text-align: left;
+    font-size: var(--h2-size);
+    color: var(--black);
+    font-family: var(--body-text);
+  }
+  .footer,
+  .px-contact-me-page {
+    display: flex;
+    align-items: flex-start;
+  }
+  .footer {
+    align-self: stretch;
+    background-color: var(--white);
+    flex-direction: row;
+    justify-content: center;
+    padding: 0 var(--padding-xl) 70px;
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+  .px-contact-me-page {
+    width: 100%;
+    position: relative;
+    flex-direction: column;
+    justify-content: flex-start;
+    letter-spacing: normal;
+  }
+  @media screen and (max-width: 1050px) {
+    .footer-info1 {
+      gap: 190px 95px;
+    }
+    .footer-info {
+      gap: 70px 35px;
+    }
+  }
+  @media screen and (max-width: 1000px) {
+    .lets-work-together {
+      font-size: 26px;
+      line-height: 34px;
+    }
+    .contact-info {
+      flex: 1;
+    }
+    .footer-info1 {
+      flex-wrap: wrap;
+    }
+  }
+  @media screen and (max-width: 725px) {
+    .navigation {
+      padding-left: var(--padding-6xl);
+      padding-right: var(--padding-6xl);
+      box-sizing: border-box;
+    }
+    .text-fields {
+      gap: 20px 40px;
+    }
+    .footer-info1 {
+      gap: 190px 47px;
+    }
+    .footer-info {
+      gap: 70px 17px;
+    }
+    .footer {
+      padding-bottom: 45px;
+      box-sizing: border-box;
+    }
+  }
+  @media screen and (max-width: 450px) {
+    .lets-work-together {
+      font-size: 19px;
+      line-height: 25px;
+    }
+    .footer-message {
+      gap: 20px 40px;
+    }
+    .contact-info {
+      gap: 30px 60px;
+      min-width: 100%;
+    }
+    .submit {
+      font-size: 16px;
+      line-height: 24px;
+    }
+    .text-fields {
+      min-width: 100%;
+    }
+    .footer-info1 {
+      gap: 190px 24px;
+    }
+  }
+  
